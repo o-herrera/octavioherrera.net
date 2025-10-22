@@ -8,19 +8,14 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'SR',
+	title: 'Octavio Herrera',
 	favicon: 'favicon.ico',
-	owner: 'Sara Richard',
-	profileImage: 'profile.webp',
+	owner: 'Octavio Herrera',
+	profileImage: 'octavio herrera en su taller Evry 2007_edited.jpg',
 	socialLinks: [
 		{
-			name: 'GitHub',
-			url: 'https://github.com/rockem/astro-photography-portfolio',
-			icon: Github,
-		} as SocialLink,
-		{
 			name: 'Instagram',
-			url: 'https://www.instagram.com',
+			url: 'https://www.instagram.com/octavioeherrera/',
 			icon: Instagram,
 		} as SocialLink,
 	],
