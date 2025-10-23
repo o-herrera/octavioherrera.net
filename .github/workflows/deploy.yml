@@ -28,7 +28,7 @@ jobs:
       - name: Build the Astro site
         run: npm run build
 
-      - name: Deploy to photography-portfolio repository
+      - name: Deploy to octavioherrera.net repository
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
